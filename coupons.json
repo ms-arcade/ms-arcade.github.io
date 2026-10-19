@@ -9,6 +9,24 @@
    "until": "2026-12-31",
    "medals": 500,
    "need": 148
+  },
+  {
+   "id": "dev_reset",
+   "h": "cc54185edcab323e9742c2d8eb8d737e58ea5ce0f9d97f1f79a092ee1581719c",
+   "coins": 0,
+   "dev": "reset"
+  },
+  {
+   "id": "dev_planes",
+   "h": "ca8ff5e051c4ad030808665fb16691e5cf147371027a255cd5cfc0c918c5bf1e",
+   "coins": 0,
+   "dev": "planes"
+  },
+  {
+   "id": "dev_medals",
+   "h": "bc9262e36183e43c10157f3a037d7bd30d767ace018019629674172f66272abd",
+   "coins": 0,
+   "dev": "medals"
   }
  ]
 }
