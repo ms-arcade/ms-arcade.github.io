@@ -27,6 +27,13 @@
    "h": "bc9262e36183e43c10157f3a037d7bd30d767ace018019629674172f66272abd",
    "coins": 0,
    "dev": "medals"
+  },
+  {
+   "id": "play_review",
+   "h": "db0b4c0031943a257278f65be2eeb976864a28fc448d045e10f7687167e5e7fa",
+   "coins": 0,
+   "dev": "planes",
+   "open": true
   }
  ]
 }
