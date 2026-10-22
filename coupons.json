@@ -2,15 +2,6 @@
  "v": 1,
  "coupons": [
   {
-   "id": "launch2026",
-   "h": "1abc65224fdea2fb35399777a2cbcbbd55669eb7f9ddfe5cfb3f692e71f6a401",
-   "coins": 5,
-   "from": "2026-10-15",
-   "until": "2026-12-31",
-   "medals": 500,
-   "need": 148
-  },
-  {
    "id": "dev_reset",
    "h": "cc54185edcab323e9742c2d8eb8d737e58ea5ce0f9d97f1f79a092ee1581719c",
    "coins": 0,
