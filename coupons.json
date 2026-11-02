@@ -7,6 +7,15 @@
    "coins": 0,
    "dev": "planes",
    "open": true
+  },
+  {
+   "id": "launch_2026_11",
+   "h": "d49abaee3a5c34626247201c0ab6d6859bd51ece0b3a9ca1b216e89bb9e8d926",
+   "coins": 10,
+   "from": "2026-11-03",
+   "until": "2026-11-30",
+   "medals": 500,
+   "need": 148
   }
  ]
 }
