@@ -14,8 +14,8 @@
 </div></header>
 <main>
 <h1>개인정보처리방침</h1>
-<p class="sub">시행일: 2026년 11월 11일 (2026년 11월 4일 공지, 이전 방침 2026년 10월 29일) · <a href="#english" class="lang">English version below</a> · <a href="#japanese" class="lang">日本語はこちら</a></p>
-<p class="sub">변경 내용: 유럽경제지역·영국·스위스 이용자를 위한 12번을 추가하고, 이용 통계와 오류 진단이 동의 화면의 선택을 따른다는 내용을 4번에 넣었습니다.</p>
+<p class="sub">시행일: 2026년 11월 14일 (2026년 11월 7일 공지, 이전 방침 2026년 11월 11일) · <a href="#english" class="lang">English version below</a> · <a href="#japanese" class="lang">日本語はこちら</a></p>
+<p class="sub">변경 내용: 온라인 협동 때 상대 기기에 전달되는 정보에 강화 단계와 윙맨을 추가하고(2번), 이벤트 참여 때 처리하는 정보를 추가했습니다(1번, 6번).</p>
 
 <p>민구조기술(이하 "회사", 게임 브랜드 MS Arcade)은 「개인정보 보호법」 등 관련 법령을 지키며,
 회사가 제공하는 모바일 게임 <b>Sky Ace 84</b>(이하 "게임")를 이용하는 분의 개인정보를 다음과 같이 처리합니다.</p>
@@ -27,6 +27,7 @@
 <p>이용자가 <b>Google Play 게임즈에 로그인한 경우에만</b>(선택, 로그인하지 않아도 게임을 그대로 이용할 수 있음) 캠페인 진행 기록(훈장, 기체·윙맨 강화 단계, 클리어한 작전과 별, 작전별 최고 점수)을 이용자 본인의 Google 계정 저장 공간(Play 게임즈 저장된 게임)에 저장하고, 아케이드 최고 점수와 캠페인 별 수를 Play 게임즈 순위표에 올립니다. 코인과 구매 내역은 여기에 저장하지 않습니다. 회사는 이용자의 저장된 게임 파일을 볼 수 없습니다.</p>
 <p><b>환영 선물</b>(처음 한 번 주는 무료 코인과 훈장)을 기기마다 한 번만 주기 위해, 게임은 기기의 Android ID를 그대로 보내지 않고 <b>되돌릴 수 없는 값(SHA-256 해시)</b>으로 바꾼 뒤 그 값과 기록 시각만 회사가 쓰는 Google Firebase Realtime Database(미국)에 남깁니다. 이 값으로는 기기나 이용자를 알아낼 수 없고, 다른 정보와 연결하지 않으며, 선물을 이미 받았는지 확인하는 데에만 씁니다.</p>
 <p>무료 코인 알림은 이용자가 게임 설정(COIN ALERT)에서 켠 경우에만, 이용자의 기기 안에서 예약되어 표시됩니다. 알림을 위해 어떤 정보도 회사나 외부로 전송하지 않으며, 설정에서 언제든 끌 수 있습니다.</p>
+<p><b>이벤트에 참여하는 경우에 한해</b>, 회사는 응모와 추첨, 당첨 안내, 상품 코드 발송을 위해 해당 소셜 미디어의 계정 이름과 응모 댓글 내용을 처리합니다. 이름, 전화번호, 주소는 받지 않습니다. 이벤트 소셜 미디어 자체의 개인정보 처리는 그 서비스(Instagram은 Meta)의 정책을 따릅니다.</p>
 <p>이용자가 문의 이메일을 보내는 경우에 한해, 답변을 위해 이메일 주소와 문의 내용을 받으며 문의 처리 후 1년이 지나면 파기합니다.</p>
 
 <h2>2. 외부 서비스가 처리하는 정보</h2>
@@ -39,7 +40,7 @@
 <tr><td>Google Play 게임즈 서비스<br>(Google LLC)</td><td><b>이용자가 로그인한 경우에만</b>: Play 게임즈 로그인, 순위표, 캠페인 진행 클라우드 저장(다른 기기·재설치 후 이어 하기)</td><td>Play 게임즈 플레이어 ID와 프로필(닉네임·아바타, 이용자가 Play 게임즈에서 정한 공개 범위에 따름), 순위표에 올린 점수, 캠페인 진행 기록 파일. 이메일 주소는 받지 않습니다</td></tr>
 <tr><td>Google Firebase Realtime Database<br>(Google LLC, 미국 서버)</td><td>환영 선물 중복 지급 방지(같은 기기에서 앱을 다시 설치해도 한 번만)</td><td>기기 Android ID를 소금값과 함께 SHA-256으로 바꾼 확인값(원래 ID로 되돌릴 수 없음)과 기록 시각. 그 밖의 정보는 보내지 않습니다</td></tr>
 <tr><td>Unity 엔진<br>(Unity Technologies)</td><td>게임 엔진 동작, 오류 진단</td><td>기기 기술 정보(기종, OS, 그래픽 장치), 엔진 오류 정보</td></tr>
-<tr><td>Unity Gaming Services<br>(Authentication·Relay·Lobby, Unity Technologies)</td><td><b>온라인 2인 협동을 고를 때만</b>: 익명 로그인, 두 기기를 잇는 중계, 방 코드·랜덤 매칭 방 찾기</td><td>익명 플레이어 ID(Unity가 무작위로 정하는 번호, 이름·연락처와 연결되지 않음), IP 주소, 접속 시각, 게임 버전, 방 코드, 협동 중 주고받는 게임 입력(기체 이동·버튼)과 고른 기체 종류. 게임 입력과 고른 기체는 함께 하는 상대 기기에도 전달됩니다. 1인 플레이만 하면 보내지 않습니다</td></tr>
+<tr><td>Unity Gaming Services<br>(Authentication·Relay·Lobby, Unity Technologies)</td><td><b>온라인 2인 협동을 고를 때만</b>: 익명 로그인, 두 기기를 잇는 중계, 방 코드·랜덤 매칭 방 찾기</td><td>익명 플레이어 ID(Unity가 무작위로 정하는 번호, 이름·연락처와 연결되지 않음), IP 주소, 접속 시각, 게임 버전, 방 코드, 협동 중 주고받는 게임 입력(기체 이동·버튼)과 고른 기체 종류, 그 기체의 강화 단계, 친구 초대 작전에서는 초대한 사람의 윙맨 구성. 이 게임 정보는 함께 하는 상대 기기에도 전달됩니다. 1인 플레이만 하면 보내지 않습니다</td></tr>
 </table></div>
 <p>Google의 데이터 처리 방식: <a href="https://policies.google.com/technologies/partner-sites?hl=ko">https://policies.google.com/technologies/partner-sites</a><br>
 Google 개인정보처리방침: <a href="https://policies.google.com/privacy?hl=ko">https://policies.google.com/privacy</a><br>
@@ -73,6 +74,7 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 <li>Play 게임즈 순위표 점수와 저장된 게임: 이용자가 Play 게임즈 앱 또는 Google 계정 설정에서 지울 때까지 Google이 보관합니다(Play 게임즈 프로필을 삭제하면 함께 삭제).</li>
 <li>환영 선물 기기 확인값(Firebase Realtime Database): 중복 지급을 막기 위해 게임 서비스가 끝날 때까지 보관하고, 서비스 종료 후 삭제합니다.</li>
 <li>온라인 2인 협동(Unity Gaming Services): 방 정보는 판이 시작되거나 방을 닫으면 삭제되고, 중계된 게임 입력은 저장하지 않습니다. 익명 플레이어 ID 등은 Unity 정책에 따라 보관됩니다.</li>
+<li>이벤트 응모·당첨 기록: 상품 코드 등록 기간이 끝나고 30일 뒤 파기합니다.</li>
 <li>문의 이메일: 문의 처리 후 1년 뒤 삭제합니다.</li>
 <li>결제 관련 기록: 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 Google Play가 보관하며, 회사가 받은 주문 번호 등은 5년간 보관 후 파기합니다.</li>
 </ul>
@@ -116,7 +118,7 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 
 <h2 id="english" lang="en">Privacy Policy (English)</h2>
 <div lang="en">
-<p class="sub">Effective date: November 11, 2026 (announced November 4, 2026; previous version October 29, 2026). Added: a section for users in the EEA, the UK and Switzerland, and that play statistics and crash reports follow your choice on the consent screen.</p>
+<p class="sub">Effective date: November 14, 2026 (announced November 7, 2026; previous version November 11, 2026). Added: the upgrade levels and wingmen sent to your partner in online co-op, and the information handled when you enter an event.</p>
 <p><b>MS Arcade</b> ("we", a game brand of Mingujo Gisul (민구조기술), a sole proprietorship in Korea) operates the mobile game <b>Sky Ace 84</b>. The Korean version above prevails if the two versions differ.</p>
 <h3>Information we collect</h3>
 <p>The game has no account or login. We do not collect your name, phone number or email, and we do not send any personal information to our own servers.
@@ -124,6 +126,7 @@ Game progress (scores, 3-letter ranking names, coins, owned planes, settings) is
 <b>Only if you sign in to Google Play Games</b> (optional; the game plays the same without it), your campaign progress (medals, plane and wingman upgrade levels, cleared operations and stars, best scores) is kept in your own Google account (Play Games Saved Games), and your arcade high score and campaign star count go on the Play Games leaderboards. Coins and purchases are not stored there. We cannot see your saved game file.
 Free coin reminders are scheduled on your device only when you switch on COIN ALERT in the game settings; no information is sent for them, and you can switch them off at any time.
 So that the <b>welcome gift</b> (free coins and medals given once) is given only once per device, the game turns the device's Android ID into a one-way value (a salted SHA-256 hash) and stores only that value and the time in our Google Firebase Realtime Database (United States). The value cannot identify your device or you, is not linked to anything else, and is used only to check whether the gift was already taken. It is kept until the game service ends.
+<b>Only if you enter an event</b>, we handle your social media account name and entry comment to run the draw, announce winners and send prize codes, and delete these records 30 days after the code redemption period ends. We do not ask for your name, phone number or address. The social media service (Meta for Instagram) handles your data under its own policy.
 If you email us, we use your email address and message only to reply, and delete them one year after the inquiry is resolved.</p>
 <h3>Third-party services</h3>
 <ul>
@@ -132,7 +135,7 @@ If you email us, we use your email address and message only to reply, and delete
 <li><b>Google Firebase</b> (Analytics and Crashlytics, Google LLC): play statistics that help us improve the game (for example where players fail most, use of continues and the shop) and crash reports. It processes an app instance ID (a random number for each installation), device model, OS version, country/region, app version, game progress (stage, score, plane, when a run ends) and crash data. Nothing that directly identifies you, such as your name or contact details, is sent. Statistics are deleted after 14 months and crash data after 90 days. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</li>
 <li><b>Unity engine</b> (Unity Technologies): may collect technical device information and engine error data. See <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</li>
 <li><b>Google Play Games Services</b> (Google LLC): <b>only when you sign in</b>, sign-in, leaderboards and the campaign progress in Saved Games. It processes your Play Games player ID and profile (gamer name and avatar, as visible under your Play Games settings), the scores sent to the leaderboards and the saved progress file; we do not receive your email address. Scores and saved games are kept by Google until you delete them in the Play Games app or your Google account settings.</li>
-<li><b>Unity Gaming Services</b> (Authentication, Relay and Lobby, Unity Technologies): <b>only when you choose online two-player co-op</b>, an anonymous sign-in, a relay between the two devices and finding a room by code or random match. It processes an anonymous player ID (a random number not linked to your name or contact details), IP address, connection time, game version, room code, and the game inputs (plane movement and buttons) and plane chosen during co-op, which are also sent to your partner's device. Room data is deleted when the game starts or the room closes; relayed inputs are not stored. Nothing is sent if you only play alone.</li>
+<li><b>Unity Gaming Services</b> (Authentication, Relay and Lobby, Unity Technologies): <b>only when you choose online two-player co-op</b>, an anonymous sign-in, a relay between the two devices and finding a room by code or random match. It processes an anonymous player ID (a random number not linked to your name or contact details), IP address, connection time, game version, room code, and the game inputs (plane movement and buttons), plane chosen and its upgrade levels during co-op, plus the host's wingmen when you invite a friend to a campaign operation; this game information is also sent to your partner's device. Room data is deleted when the game starts or the room closes; relayed inputs are not stored. Nothing is sent if you only play alone.</li>
 </ul>
 <p>This information may be transferred to and processed in the United States and other countries where these providers operate.</p>
 <h3>Your choices</h3>
@@ -156,7 +159,7 @@ There are no rewards for clicking ads. We do not share personal information with
 </div>
 <h2 id="japanese" lang="ja">プライバシーポリシー (日本語)</h2>
 <div lang="ja">
-<p class="sub">施行日: 2026年11月11日 (2026年11月4日告知、以前のポリシー 2026年10月29日)。この日本語版は翻訳です。内容が異なる場合は上記の韓国語版が優先されます。</p>
+<p class="sub">施行日: 2026年11月14日 (2026年11月7日告知、以前のポリシー 2026年11月11日)。この日本語版は翻訳です。内容が異なる場合は上記の韓国語版が優先されます。</p>
 <p>민구조기술(英語表記 Mingujo Gisul、ゲームブランド MS Arcade。以下「当社」)は、関連法令を遵守し、次のとおり個人情報を取り扱います。当社はモバイルゲーム <b>Sky Ace 84</b>(以下「本ゲーム」)を提供しています。</p>
 <h3>1. 当社が直接収集する情報</h3>
 <p>本ゲームに<b>会員登録やログインの義務はなく</b>、当社は氏名、電話番号、メールアドレスなどの個人情報を直接収集したり、当社のサーバーに送信したりしません。</p>
@@ -164,6 +167,7 @@ There are no rewards for clicking ads. We do not share personal information with
 <p>お客様が<b>Google Play ゲームにログインした場合のみ</b>(任意。ログインしなくても同じように遊べます)、キャンペーンの進行記録(勲章、機体・ウィングマンの強化段階、クリアした作戦と星、作戦ごとの最高スコア)をお客様のGoogleアカウントの保存領域に保存し、アーケードの最高スコアとキャンペーンの星の数をランキングに登録します。コインと購入履歴は保存しません。当社は保存データを閲覧できません。</p>
 <p><b>ウェルカムギフト</b>を端末ごとに1回だけ提供するため、端末のAndroid IDをそのまま送らず、<b>元に戻せない値(SHA-256ハッシュ)</b>に変換し、その値と記録時刻のみを当社が利用するGoogle Firebase Realtime Database(米国)に保存します。この値は他の情報と結び付けず、ギフトの受け取り済みの確認にのみ使用します。</p>
 <p>無料コイン通知は、設定のCOIN ALERTをオンにした場合のみ端末内で予約され表示されます。通知のために情報を外部へ送信することはなく、設定でいつでもオフにできます。</p>
+<p><b>イベントに参加する場合に限り</b>、応募、抽選、当選案内、賞品コードの送付のため、該当するソーシャルメディアのアカウント名と応募コメントを処理します。氏名、電話番号、住所は受け取りません。ソーシャルメディア自体の個人情報の取り扱いは、そのサービス(InstagramはMeta)のポリシーに従います。</p>
 <p>お問い合わせメールをいただいた場合に限り、回答のためにメールアドレスと内容を受け取り、対応完了から1年後に破棄します。</p>
 <h3>2. 外部サービスが処理する情報</h3>
 <ul>
@@ -173,7 +177,7 @@ There are no rewards for clicking ads. We do not share personal information with
 <li><b>Google Play ゲームサービス</b> (Google LLC): <b>ログインした場合のみ</b>、ログイン、ランキング、キャンペーンのクラウド保存。プレイヤーIDとプロフィール、登録したスコア、進行記録ファイルを処理します。メールアドレスは受け取りません。</li>
 <li><b>Google Firebase Realtime Database</b> (Google LLC、米国サーバー): ウェルカムギフトの重複防止。Android IDをソルトとともにSHA-256で変換した確認値と記録時刻を処理します。</li>
 <li><b>Unity エンジン</b> (Unity Technologies): エンジンの動作とエラー診断。端末の技術情報とエラー情報を処理します。</li>
-<li><b>Unity Gaming Services</b> (Authentication・Relay・Lobby、Unity Technologies): <b>オンライン2人協力プレイを選んだ場合のみ</b>、匿名ログイン、中継、部屋探し。匿名プレイヤーID、IPアドレス、接続時刻、ゲームバージョン、部屋コード、協力プレイ中のゲーム入力と選択した機体を処理します。入力と機体は相手の端末にも送られます。</li>
+<li><b>Unity Gaming Services</b> (Authentication・Relay・Lobby、Unity Technologies): <b>オンライン2人協力プレイを選んだ場合のみ</b>、匿名ログイン、中継、部屋探し。匿名プレイヤーID、IPアドレス、接続時刻、ゲームバージョン、部屋コード、協力プレイ中のゲーム入力、選択した機体とその強化段階、友達招待の作戦では招待した人のウイングマン構成を処理します。これらのゲーム情報は相手の端末にも送られます。</li>
 </ul>
 <p>各社のポリシー: <a href="https://policies.google.com/privacy?hl=ja">Google</a>、<a href="https://firebase.google.com/support/privacy?hl=ja">Firebase</a>、<a href="https://unity.com/legal/privacy-policy">Unity</a></p>
 <h3>3. 個人情報の国外移転</h3>
@@ -194,6 +198,7 @@ There are no rewards for clicking ads. We do not share personal information with
 <li>Play ゲームのランキングと保存データ: お客様がPlay ゲームアプリまたはGoogleアカウント設定で削除するまでGoogleが保管します。</li>
 <li>ウェルカムギフトの確認値: サービス終了まで保管し、終了後に削除します。</li>
 <li>オンライン2人協力プレイ: 部屋情報はゲーム開始時または部屋を閉じたときに削除され、中継された入力は保存しません。匿名プレイヤーIDなどはUnityのポリシーに従います。</li>
+<li>イベントの応募・当選記録: 賞品コードの登録期間が終わってから30日後に破棄します。</li>
 <li>お問い合わせメール: 対応完了から1年後に削除します。</li>
 <li>決済関連記録: 韓国の電子商取引消費者保護法に基づきGoogle Playが保管し、当社が受け取った注文番号などは5年間保管後に破棄します。</li>
 </ul>
