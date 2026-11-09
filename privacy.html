@@ -15,13 +15,13 @@
 <main>
 <h1>개인정보처리방침</h1>
 <p class="sub">시행일: 2026년 11월 17일 (2026년 11월 10일 공지, 이전 방침 2026년 11월 14일) · <a href="#english" class="lang">English version below</a> · <a href="#japanese" class="lang">日本語はこちら</a></p>
-<p class="sub">변경 내용: iPhone(iOS)판 출시에 맞춰 Apple 서비스(App Store 결제, Game Center, iCloud, 앱 추적 투명성)를 추가했습니다(1·2·3·4·6·7·12번). 이전 변경(2026년 11월 14일 시행): 온라인 협동 때 상대 기기에 전달되는 강화 단계와 윙맨, 이벤트 참여 때 처리하는 정보.</p>
+<p class="sub">변경 내용: iPhone(iOS)판 출시에 맞춰 Apple 서비스(App Store 결제, Game Center, iCloud, 앱 추적 투명성)를 추가했습니다(1·2·3·4·6·7·12번). 함께 바로잡은 것: 광고 보상 문구(4번), Firebase가 쓰는 기기 식별자(2번), 개인정보 보호책임자 성명(10번), 선택 로그인 안내(1번). 이전 변경(2026년 11월 14일 시행): 온라인 협동 때 상대 기기에 전달되는 강화 단계와 윙맨, 이벤트 참여 때 처리하는 정보.</p>
 
 <p>민구조기술(이하 "회사", 게임 브랜드 MS Arcade)은 「개인정보 보호법」 등 관련 법령을 지키며,
 회사가 제공하는 모바일 게임 <b>Sky Ace 84</b>(Android·iPhone, 이하 "게임")를 이용하는 분의 개인정보를 다음과 같이 처리합니다.</p>
 
 <h2>1. 회사가 직접 수집하는 정보</h2>
-<p>게임은 <b>회원 가입이나 로그인이 없으며</b>, 회사는 이름, 전화번호, 이메일 같은 개인정보를 직접 수집하거나 회사 서버로 전송하지 않습니다.</p>
+<p>게임은 <b>회원 가입이 없으며</b>(아래의 Google Play 게임즈·Game Center·iCloud 로그인은 이용자가 고르는 선택 기능입니다), 회사는 이름, 전화번호, 이메일 같은 개인정보를 직접 수집하거나 회사 서버로 전송하지 않습니다.</p>
 <p>게임 진행 기록(점수, 랭킹 이름 3글자, 보유 코인, 보유 기체, 설정값)은 <b>이용자의 기기 안에 저장</b>되며 회사는 이를 볼 수 없습니다.
 앱을 삭제하면 이 기록도 함께 삭제됩니다.</p>
 <p>이용자가 <b>Google Play 게임즈에 로그인한 경우에만</b>(선택, 로그인하지 않아도 게임을 그대로 이용할 수 있음) 캠페인 진행 기록(훈장, 기체·윙맨 강화 단계, 클리어한 작전과 별, 작전별 최고 점수)을 이용자 본인의 Google 계정 저장 공간(Play 게임즈 저장된 게임)에 저장하고, 아케이드 최고 점수와 캠페인 별 수를 Play 게임즈 순위표에 올립니다. 코인과 구매 내역은 여기에 저장하지 않습니다. 회사는 이용자의 저장된 게임 파일을 볼 수 없습니다.</p>
@@ -37,7 +37,7 @@
 <tr><th>서비스(제공자)</th><th>목적</th><th>처리하는 정보</th></tr>
 <tr><td>Google AdMob<br>(Google LLC)</td><td>화면 위쪽 배너 광고와, 이용자가 직접 고른 경우에만 재생되는 보상형 동영상 광고 표시, 광고 성과 측정, 부정 클릭 방지</td><td>광고 ID(Android 광고 ID, iPhone은 이용자가 추적을 허용한 경우에만 IDFA), 기기 정보(기종, OS 버전), IP 주소, 광고 노출·클릭 기록, 대략적인 위치(IP 기반)</td></tr>
 <tr><td>Google Play 결제<br>(Google LLC, Android)</td><td>코인·기체·광고 제거 구매 처리, 구매 복원</td><td>구매 내역, 주문 번호. 결제 수단 정보는 Google이 처리하며 회사는 받지 않습니다</td></tr>
-<tr><td>Google Firebase<br>(Analytics·Crashlytics, Google LLC)</td><td>게임 개선을 위한 이용 통계(어느 스테이지에서 많이 실패하는지, 이어하기·상점 이용 등)와 앱 오류(강제 종료) 진단</td><td>앱 인스턴스 ID(앱 설치마다 무작위로 정해지는 번호), 기기 정보(기종, OS 버전), 국가·지역, 앱 버전, 게임 진행 기록(스테이지, 점수, 사용 기체, 격추·실패 시점), 오류 발생 기록. 이름·연락처 등 이용자를 직접 알아볼 수 있는 정보는 보내지 않습니다</td></tr>
+<tr><td>Google Firebase<br>(Analytics·Crashlytics, Google LLC)</td><td>게임 개선을 위한 이용 통계(어느 스테이지에서 많이 실패하는지, 이어하기·상점 이용 등)와 앱 오류(강제 종료) 진단</td><td>앱 인스턴스 ID·Firebase 설치 ID(앱 설치마다 무작위로 정해지는 번호), 기기 식별자(광고 ID; iPhone은 앱 판매자 ID(IDFV)와, 추적을 허용한 경우 IDFA), 기기 정보(기종, OS 버전), 국가·지역, 앱 버전, 게임 진행 기록(스테이지, 점수, 사용 기체, 격추·실패 시점), 오류 발생 기록. 이름·연락처 등 이용자를 직접 알아볼 수 있는 정보는 보내지 않습니다</td></tr>
 <tr><td>Google Play 게임즈 서비스<br>(Google LLC, Android)</td><td><b>이용자가 로그인한 경우에만</b>: Play 게임즈 로그인, 순위표, 캠페인 진행 클라우드 저장(다른 기기·재설치 후 이어 하기)</td><td>Play 게임즈 플레이어 ID와 프로필(닉네임·아바타, 이용자가 Play 게임즈에서 정한 공개 범위에 따름), 순위표에 올린 점수, 캠페인 진행 기록 파일. 이메일 주소는 받지 않습니다</td></tr>
 <tr><td>Google Firebase Realtime Database<br>(Google LLC, 미국 서버)</td><td>환영 선물 중복 지급 방지(같은 기기에서 앱을 다시 설치해도 한 번만)</td><td>기기 식별값(Android ID 또는 iPhone 키체인의 무작위 번호)을 소금값과 함께 SHA-256으로 바꾼 확인값(원래 값으로 되돌릴 수 없음)과 기록 시각. 그 밖의 정보는 보내지 않습니다</td></tr>
 <tr><td>App Store 결제<br>(Apple Inc., iPhone)</td><td>코인·기체·광고 제거 구매 처리, 구매 복원</td><td>구매 내역, 거래 번호. 결제 수단 정보는 Apple이 처리하며 회사는 받지 않습니다</td></tr>
@@ -67,7 +67,7 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 <li>게임을 처음 실행할 때 지역 법령에 따라 개인정보 동의 화면이 표시될 수 있으며, 동의 여부는 게임 설정에서 다시 바꿀 수 있습니다. 이 화면이 표시되는 지역에서는 동의하지 않으면 이용 통계(Firebase Analytics)와 오류 진단(Crashlytics)도 보내지 않습니다.</li>
 <li>Android 기기의 <b>설정 → 개인정보 보호(또는 Google) → 광고</b>에서 광고 ID를 삭제하거나 재설정할 수 있습니다. 광고 ID를 삭제해도 광고는 표시되지만 맞춤형이 아닌 광고가 표시됩니다.</li>
 <li>iPhone에서는 게임을 처음 실행할 때 Apple의 <b>앱 추적 투명성</b> 창으로 추적 허용 여부를 묻습니다. 허용하지 않으면 광고 식별자(IDFA)를 쓰지 않으며 맞춤형이 아닌 광고가 표시됩니다. 선택은 iPhone의 <b>설정 → 개인정보 보호 및 보안 → 추적</b>에서 언제든 바꿀 수 있습니다.</li>
-<li>게임의 광고 보상은 없으며, 광고 클릭을 요구하지 않습니다.</li>
+<li>광고를 누르는 것에 대해서는 어떤 보상도 주지 않으며(보상은 이용자가 고른 동영상 광고를 끝까지 본 경우에만 줍니다), 광고 클릭을 요구하지 않습니다.</li>
 </ul>
 
 <h2>5. 개인정보의 제3자 제공</h2>
@@ -101,7 +101,7 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 
 <h2>10. 개인정보 보호책임자</h2>
 <ul>
-<li>책임자: 민구조기술 대표</li>
+<li>책임자: 강홍석 (민구조기술 대표)</li>
 <li>이메일: <a href="mailto:mwtec235@gmail.com">mwtec235@gmail.com</a></li>
 </ul>
 <p>개인정보 침해에 대한 신고나 상담은 아래 기관에도 문의할 수 있습니다.</p>
@@ -111,7 +111,8 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 </ul>
 
 <h2>11. 방침의 변경</h2>
-<p>이 방침이 바뀌면 시행 7일 전에 이 페이지에 알립니다. 이용자 권리에 중요한 변경은 30일 전에 알립니다.</p>
+<p>이 방침이 바뀌면 시행 7일 전에 이 페이지와 홈페이지 공지사항, 게임 안 공지로 알립니다. 이용자 권리에 중요한 변경은 30일 전에 알립니다.</p>
+<p class="sub">이전 버전: <a href="privacy-2026-11-14.html">2026년 11월 14일 시행</a> · <a href="privacy-2026-11-11.html">2026년 11월 11일 시행</a> · <a href="privacy-2026-10-29.html">2026년 10월 29일 시행</a> · 바뀐 내용은 <a href="./#notices">공지사항</a>에서 볼 수 있습니다.</p>
 
 <h2>12. 유럽경제지역(EEA)·영국·스위스 이용자</h2>
 <p>이 지역 이용자에게는 EU 일반 개인정보 보호법(GDPR) 또는 해당 지역의 같은 성격의 법이 적용될 수 있으며, 다음 내용이 함께 적용됩니다. 개인정보 처리자는 민구조기술(대한민국)이며 연락처는 10번과 같습니다.</p>
@@ -127,10 +128,10 @@ Unity 개인정보처리방침: <a href="https://unity.com/legal/privacy-policy"
 
 <h2 id="english" lang="en">Privacy Policy (English)</h2>
 <div lang="en">
-<p class="sub">Effective date: November 17, 2026 (announced November 10, 2026; previous version November 14, 2026). Added: Apple services for the iPhone (iOS) version (App Store purchases, Game Center, iCloud and App Tracking Transparency). Previous change (effective November 14, 2026): the upgrade levels and wingmen sent to your partner in online co-op, and the information handled when you enter an event.</p>
+<p class="sub">Effective date: November 17, 2026 (announced November 10, 2026; previous version November 14, 2026). Added: Apple services for the iPhone (iOS) version (App Store purchases, Game Center, iCloud and App Tracking Transparency); also corrected: the device identifiers Firebase uses, the privacy officer's name, and that sign-in is optional. Previous change (effective November 14, 2026): the upgrade levels and wingmen sent to your partner in online co-op, and the information handled when you enter an event.</p>
 <p><b>MS Arcade</b> ("we", a game brand of Mingujo Gisul (민구조기술), a sole proprietorship in Korea) operates the mobile game <b>Sky Ace 84</b> (Android and iPhone). The Korean version above prevails if the two versions differ.</p>
 <h3>Information we collect</h3>
-<p>The game has no account or login. We do not collect your name, phone number or email, and we do not send any personal information to our own servers.
+<p>The game has no account to create (signing in to Google Play Games, Game Center or iCloud is optional). We do not collect your name, phone number or email, and we do not send any personal information to our own servers.
 Game progress (scores, 3-letter ranking names, coins, owned planes, settings) is stored <b>on your device</b> and is deleted when you uninstall the app.
 <b>Only if you sign in to Google Play Games</b> (optional; the game plays the same without it), your campaign progress (medals, plane and wingman upgrade levels, cleared operations and stars, best scores) is kept in your own Google account (Play Games Saved Games), and your arcade high score and campaign star count go on the Play Games leaderboards. Coins and purchases are not stored there. We cannot see your saved game file.
 On the <b>iPhone</b>, the same campaign progress is kept in your own <b>iCloud</b>, and if you are signed in to <b>Game Center</b>, your arcade high score and campaign star count go on the Game Center leaderboards. Both are optional (you can switch them off in iPhone Settings and play the same) and do not include coins or purchases. We cannot see your iCloud data. iPhone and Android progress are not linked.
@@ -144,7 +145,7 @@ If you email us, we use your email address and message only to reply, and delete
 <li><b>Google Play Billing</b> (Google LLC, Android) and <b>App Store purchases</b> (Apple Inc., iPhone): process purchases of coins, planes and Remove Ads. We never receive your payment card details.</li>
 <li><b>Game Center</b> (Apple Inc., iPhone): <b>only when you are signed in</b>, the leaderboards. It processes your Game Center player ID and nickname (as visible under your Game Center settings) and the scores sent; we do not receive your email address. Scores are kept by Apple until you remove them in Game Center settings or delete your Apple Account.</li>
 <li><b>iCloud key-value storage</b> (Apple Inc., iPhone): <b>only when you use iCloud</b>, your campaign progress, kept in your own Apple Account until you delete it in Settings &gt; Apple Account &gt; iCloud &gt; Manage Storage. We cannot see it. See <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>.</li>
-<li><b>Google Firebase</b> (Analytics and Crashlytics, Google LLC): play statistics that help us improve the game (for example where players fail most, use of continues and the shop) and crash reports. It processes an app instance ID (a random number for each installation), device model, OS version, country/region, app version, game progress (stage, score, plane, when a run ends) and crash data. Nothing that directly identifies you, such as your name or contact details, is sent. Statistics are deleted after 14 months and crash data after 90 days. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</li>
+<li><b>Google Firebase</b> (Analytics and Crashlytics, Google LLC): play statistics that help us improve the game (for example where players fail most, use of continues and the shop) and crash reports. It processes an app instance ID and Firebase installation ID (random numbers for each installation), device identifiers (the advertising ID; on the iPhone, the vendor ID (IDFV) and, only if you allow tracking, the IDFA), device model, OS version, country/region, app version, game progress (stage, score, plane, when a run ends) and crash data. Nothing that directly identifies you, such as your name or contact details, is sent. Statistics are deleted after 14 months and crash data after 90 days. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</li>
 <li><b>Unity engine</b> (Unity Technologies): may collect technical device information and engine error data. See <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</li>
 <li><b>Google Play Games Services</b> (Google LLC, Android): <b>only when you sign in</b>, sign-in, leaderboards and the campaign progress in Saved Games. It processes your Play Games player ID and profile (gamer name and avatar, as visible under your Play Games settings), the scores sent to the leaderboards and the saved progress file; we do not receive your email address. Scores and saved games are kept by Google until you delete them in the Play Games app or your Google account settings.</li>
 <li><b>Unity Gaming Services</b> (Authentication, Relay and Lobby, Unity Technologies): <b>only when you choose online two-player co-op</b>, an anonymous sign-in, a relay between the two devices and finding a room by code or random match. It processes an anonymous player ID (a random number not linked to your name or contact details), IP address, connection time, game version, room code, and the game inputs (plane movement and buttons), plane chosen and its upgrade levels during co-op, plus the host's wingmen when you invite a friend to a campaign operation; this game information is also sent to your partner's device. Room data is deleted when the game starts or the room closes; relayed inputs are not stored. Nothing is sent if you only play alone.</li>
@@ -156,7 +157,7 @@ There are no rewards for clicking ads. We do not share personal information with
 <h3>Children</h3>
 <p>We do not knowingly collect personal information from children under 14 and do not request personalized ads for children. Parents can limit purchases with Google Play parental controls, or Ask to Buy and Screen Time on the iPhone.</p>
 <h3>Contact</h3>
-<p>Privacy officer: Representative of Mingujo Gisul (MS Arcade) — <a href="mailto:mwtec235@gmail.com">mwtec235@gmail.com</a></p>
+<p>Privacy officer: Kang Hongseok, representative of Mingujo Gisul (MS Arcade) — <a href="mailto:mwtec235@gmail.com">mwtec235@gmail.com</a></p>
 <h3>Users in the EEA, the UK and Switzerland</h3>
 <p>The EU General Data Protection Regulation (GDPR) or an equivalent local law may apply to you. The controller is Mingujo Gisul (민구조기술), Republic of Korea; contact details are above. Legal bases:</p>
 <ul>
@@ -167,14 +168,15 @@ There are no rewards for clicking ads. We do not share personal information with
 </ul>
 <p>The welcome gift value is one-way, but may count as pseudonymous data under these laws. You have the right to access, rectify, erase, restrict, object to and port your data, and to withdraw consent. Email us to use these rights. You may also complain to a data protection authority, for example where you live. The providers above may process this information outside these regions, under the safeguards they provide, such as standard contractual clauses.</p>
 <h3>Changes</h3>
-<p>We will post any changes on this page at least 7 days before they take effect.</p>
+<p>We will post any changes on this page, in the notices on our home page and in the game at least 7 days before they take effect.</p>
+<p class="sub">Previous versions: <a href="privacy-2026-11-14.html">effective November 14, 2026</a> · <a href="privacy-2026-11-11.html">November 11, 2026</a> · <a href="privacy-2026-10-29.html">October 29, 2026</a> · Changes are listed in the <a href="./#notices">notices</a>.</p>
 </div>
 <h2 id="japanese" lang="ja">プライバシーポリシー (日本語)</h2>
 <div lang="ja">
-<p class="sub">施行日: 2026年11月17日 (2026年11月10日告知、以前のポリシー 2026年11月14日)。変更内容: iPhone(iOS)版に合わせてAppleのサービス(App Store決済、Game Center、iCloud、Appのトラッキングの透明性)を追加しました。この日本語版は翻訳です。内容が異なる場合は上記の韓国語版が優先されます。</p>
+<p class="sub">施行日: 2026年11月17日 (2026年11月10日告知、以前のポリシー 2026年11月14日)。変更内容: iPhone(iOS)版に合わせてAppleのサービス(App Store決済、Game Center、iCloud、Appのトラッキングの透明性)を追加しました。あわせて、Firebaseが使う端末識別子、個人情報保護責任者の氏名、ログインが任意であることを明記しました。この日本語版は翻訳です。内容が異なる場合は上記の韓国語版が優先されます。</p>
 <p>민구조기술(英語表記 Mingujo Gisul、ゲームブランド MS Arcade。以下「当社」)は、関連法令を遵守し、次のとおり個人情報を取り扱います。当社はモバイルゲーム <b>Sky Ace 84</b>(Android・iPhone、以下「本ゲーム」)を提供しています。</p>
 <h3>1. 当社が直接収集する情報</h3>
-<p>本ゲームに<b>会員登録やログインの義務はなく</b>、当社は氏名、電話番号、メールアドレスなどの個人情報を直接収集したり、当社のサーバーに送信したりしません。</p>
+<p>本ゲームに<b>会員登録はなく</b>(Google Play ゲーム・Game Center・iCloudへのログインは任意です)、当社は氏名、電話番号、メールアドレスなどの個人情報を直接収集したり、当社のサーバーに送信したりしません。</p>
 <p>ゲームの進行記録(スコア、ランキング名3文字、所持コイン、所持機体、設定値)は<b>お客様の端末内に保存</b>され、当社は閲覧できません。アプリを削除すると記録も削除されます。</p>
 <p>お客様が<b>Google Play ゲームにログインした場合のみ</b>(任意。ログインしなくても同じように遊べます)、キャンペーンの進行記録(勲章、機体・ウィングマンの強化段階、クリアした作戦と星、作戦ごとの最高スコア)をお客様のGoogleアカウントの保存領域に保存し、アーケードの最高スコアとキャンペーンの星の数をランキングに登録します。コインと購入履歴は保存しません。当社は保存データを閲覧できません。</p>
 <p><b>iPhone</b>では、同じキャンペーンの進行記録をお客様の<b>iCloud</b>に保存し、<b>Game Center</b>にサインインしている場合はアーケードの最高スコアとキャンペーンの星の数をGame Centerのランキングに登録します。どちらも任意で(iPhoneの設定でオフにでき、オフでも同じように遊べます)、コインと購入履歴は保存しません。当社はiCloudのデータを閲覧できません。iPhoneとAndroidの進行記録は引き継がれません。</p>
@@ -188,7 +190,7 @@ There are no rewards for clicking ads. We do not share personal information with
 <li><b>Google Play 決済</b> (Google LLC、Android)・<b>App Store 決済</b> (Apple Inc.、iPhone): コイン・機体・広告削除の購入処理と購入の復元。購入履歴と注文番号を処理します。決済手段の情報はGoogle・Appleが処理し、当社は受け取りません。</li>
 <li><b>Game Center</b> (Apple Inc.、iPhone): <b>サインインしている場合のみ</b>ランキング。Game CenterのプレイヤーIDとニックネーム、登録したスコアを処理します。メールアドレスは受け取りません。</li>
 <li><b>iCloud キー値ストレージ</b> (Apple Inc.、iPhone): <b>iCloudを利用している場合のみ</b>、キャンペーンの進行記録をお客様のAppleアカウントに保存します。当社は閲覧できません。</li>
-<li><b>Google Firebase</b> (Analytics・Crashlytics、Google LLC): ゲーム改善のための利用統計とアプリのエラー診断。アプリインスタンスID、端末情報、国・地域、アプリバージョン、ゲームの進行記録、エラー記録を処理します。氏名や連絡先など個人を直接特定できる情報は送信しません。</li>
+<li><b>Google Firebase</b> (Analytics・Crashlytics、Google LLC): ゲーム改善のための利用統計とアプリのエラー診断。アプリインスタンスID・Firebase インストールID、端末識別子(広告ID。iPhoneではベンダーID(IDFV)と、トラッキングを許可した場合のIDFA)、端末情報、国・地域、アプリバージョン、ゲームの進行記録、エラー記録を処理します。氏名や連絡先など個人を直接特定できる情報は送信しません。</li>
 <li><b>Google Play ゲームサービス</b> (Google LLC、Android): <b>ログインした場合のみ</b>、ログイン、ランキング、キャンペーンのクラウド保存。プレイヤーIDとプロフィール、登録したスコア、進行記録ファイルを処理します。メールアドレスは受け取りません。</li>
 <li><b>Google Firebase Realtime Database</b> (Google LLC、米国サーバー): ウェルカムギフトの重複防止。端末の識別値をソルトとともにSHA-256で変換した確認値と記録時刻を処理します。</li>
 <li><b>Unity エンジン</b> (Unity Technologies): エンジンの動作とエラー診断。端末の技術情報とエラー情報を処理します。</li>
@@ -227,9 +229,10 @@ There are no rewards for clicking ads. We do not share personal information with
 <h3>9. 安全管理措置</h3>
 <p>お問い合わせメールは2段階認証を適用したアカウントでのみ管理し、必要な者以外はアクセスできません。</p>
 <h3>10. 個人情報保護責任者</h3>
-<p>責任者: 민구조기술 代表 / メール: <a href="mailto:mwtec235@gmail.com">mwtec235@gmail.com</a></p>
+<p>責任者: 강홍석(민구조기술 代表) / メール: <a href="mailto:mwtec235@gmail.com">mwtec235@gmail.com</a></p>
 <h3>11. ポリシーの変更</h3>
-<p>本ポリシーを変更する場合は施行の7日前に、お客様の権利に関わる重要な変更は30日前に、このページで告知します。</p>
+<p>本ポリシーを変更する場合は施行の7日前に、お客様の権利に関わる重要な変更は30日前に、このページとホームページのお知らせ、ゲーム内のお知らせで告知します。</p>
+<p class="sub">以前のバージョン: <a href="privacy-2026-11-14.html">2026年11月14日施行</a> · <a href="privacy-2026-11-11.html">2026年11月11日施行</a> · <a href="privacy-2026-10-29.html">2026年10月29日施行</a> · 変更内容は<a href="./#notices">お知らせ</a>をご覧ください。</p>
 <h3>12. 欧州経済領域(EEA)・英国・スイスのお客様</h3>
 <p>EU一般データ保護規則(GDPR)または同様の法律が適用される場合があります。管理者は민구조기술(大韓民国)です。処理の法的根拠は、利用統計・エラー診断とパーソナライズド広告は同意(設定 → プライバシー → 広告設定でいつでも撤回可能)、購入処理・Play ゲーム・Game Center・iCloud保存・協力プレイは契約の履行、ウェルカムギフトの重複防止と不正防止・お問い合わせ対応は正当な利益、決済記録の保管は法的義務です。閲覧、訂正、削除、処理の制限、異議申立て、データポータビリティ、同意撤回の権利があり、データ保護当局に苦情を申し立てることもできます。各提供者はこれらの地域外で情報を処理することがあり、移転は標準契約条項などの保護措置に従います。</p>
 </div>
