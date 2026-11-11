@@ -33,9 +33,9 @@
 <li><b>일정 공유(이미지·링크):</b> 이용자가 공유 버튼을 누를 때만, 기기의 공유 창을 통해 이용자가 고른 앱(카카오톡, 문자 등)과 받는 사람에게 전달되며, 앱이 스스로 보내지 않습니다.
   <ul>
   <li><b>이미지 공유:</b> 「내 일정」 요약 이미지(일차별 장소·숙소 이름, 도착 시각, 구간 노선과 운임, 추천 패스)를 보냅니다.</li>
-  <li><b>링크 공유:</b> 링크 안에 일정 이름, 날짜, 일차별 공항·방문지·숙소의 이름, 앱에 들어 있는 역·관광지의 번호, Google 장소의 장소 ID, 이용자가 지도에서 직접 고른 지점의 좌표가 압축되어 들어갑니다. Google에서 받은 장소 좌표는 넣지 않습니다. 일정 내용은 링크의 「#」 뒤에 들어 있어, 링크를 열어도 브라우저가 이 부분을 jtpass.app 서버로 보내지 않으며 회사와 웹 호스팅 업체는 일정 내용을 받지 않습니다.</li>
+  <li><b>링크 공유:</b> 링크 안에 일정 이름, 날짜, 도착·귀국 시각, 일행 구성, 일차별 공항·방문지·숙소의 이름과 머무는 시간, 앱에 들어 있는 역·관광지의 번호, Google 장소의 장소 ID와 이름을 받은 날, 이용자가 지도에서 직접 고른 지점의 좌표가 압축되어 들어갑니다. Google에서 받은 장소 좌표, 메모, 지출 기록은 넣지 않습니다. 일정 내용은 링크의 「#」 뒤에 들어 있어, 링크를 열어도 브라우저가 이 부분을 jtpass.app 서버로 보내지 않으며 회사와 웹 호스팅 업체는 일정 내용을 받지 않습니다.</li>
   <li><b>주의:</b> 링크나 이미지를 가진 사람은 누구나 숙소를 포함한 일정을 볼 수 있습니다. 믿을 수 있는 사람에게만 보내 주세요.</li>
-  <li><b>받는 사람:</b> 링크를 열면 JTPass가 설치된 기기에서는 저장할지 먼저 묻고, 저장하면 받는 사람의 기기에만 저장됩니다. JTPass가 없으면 jtpass.app 페이지가 브라우저 안에서 일정을 보여 줍니다. 받은 일정의 Google 장소 위치가 필요할 때는 받는 사람의 앱이 장소 ID로 Google Places API에 조회합니다(3번).</li>
+  <li><b>받는 사람:</b> 링크를 열면 JTPass가 설치된 기기에서는 저장할지 먼저 묻고, 저장하면 받는 사람의 기기에만 저장됩니다. JTPass가 없으면 jtpass.app 페이지가 브라우저 안에서 일정을 보여 줍니다. 받은 일정의 Google 장소 위치가 필요할 때는 받는 사람의 앱이 장소 ID로 Google Places API에 조회하며, 이 조회는 받는 사람의 이번 달 장소 검색 횟수에서 차감됩니다(3번).</li>
   </ul></li>
 <li><b>JTPass 플러스와 이용 횟수:</b> JTPass 플러스 만료일과 이번 달 장소 검색 횟수는 기기에만 저장되며 회사로 보내지 않습니다.</li>
 </ul>
@@ -119,9 +119,9 @@ If you email us, we use your email address and message only to reply, and delete
 <li><b>Sharing (image or link):</b> only when you tap Share, your itinerary is passed through your device's share sheet to the app you choose (KakaoTalk, SMS and so on) and its recipients; the app never sends it by itself.
   <ul>
   <li><b>Image:</b> a summary of your itinerary (stop and lodging names per day, arrival times, lines and fares, recommended passes).</li>
-  <li><b>Link:</b> the link contains, compressed, the itinerary name, dates, names of the airport, stops and lodging per day, the IDs of stations and spots that ship with the app, Google place IDs, and coordinates of points you picked on the map yourself. Coordinates received from Google are not included. The itinerary sits after the “#” in the link, which browsers do not send to the jtpass.app server, so neither we nor our web host receive it.</li>
+  <li><b>Link:</b> the link contains, compressed, the itinerary name, dates, arrival and departure times, party makeup, names and stay times of the airport, stops and lodging per day, the IDs of stations and spots that ship with the app, Google place IDs with the date their names were received, and coordinates of points you picked on the map yourself. Coordinates received from Google, notes and expense records are not included. The itinerary sits after the “#” in the link, which browsers do not send to the jtpass.app server, so neither we nor our web host receive it.</li>
   <li><b>Note:</b> anyone who has the link or image can see the itinerary, including lodging. Send it only to people you trust.</li>
-  <li><b>Recipients:</b> if JTPass is installed, the app asks before saving, and a saved itinerary stays only on the recipient's device. Without JTPass, the jtpass.app page shows the itinerary inside the browser. When the recipient's app needs the location of a Google place, it looks it up with Google Places API by place ID.</li>
+  <li><b>Recipients:</b> if JTPass is installed, the app asks before saving, and a saved itinerary stays only on the recipient's device. Without JTPass, the jtpass.app page shows the itinerary inside the browser. When the recipient's app needs the location of a Google place, it looks it up with Google Places API by place ID, which counts toward the recipient's monthly place searches.</li>
   </ul></li>
 <li><b>JTPass Plus and usage counts:</b> JTPass Plus expiry date and this month's place search count are stored only on your device and never sent to us.</li>
 </ul>
